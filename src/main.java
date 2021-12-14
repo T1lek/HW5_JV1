@@ -14,9 +14,9 @@ public class main {
         }
     }
     public static Hero[] createHeroes () {
-        Hero Ling = new Hero("Ling: ",200, 35, "Weightlessness");
-        Hero Guss = new Hero("Guss: ",250, 20, "Telepathy");
-        Hero Terizla = new Hero("Terizla: ",400, 10,"Tank");
+        Hero ling = new Hero("Ling: ",200, 35, "Weightlessness");
+        Hero guss = new Hero("Guss: ",250, 20, "Telepathy");
+        Hero terizla = new Hero("Terizla: ",400, 10,"Tank");
         Hero[] heroMass = {Ling, Guss, Terizla};
         return heroMass;
 
