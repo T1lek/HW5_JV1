@@ -17,7 +17,7 @@ public class main {
         Hero liNg = new Hero("Ling: ",200, 35, "Weightlessness");
         Hero gUss = new Hero("Guss: ",250, 20, "Telepathy");
         Hero terIzla = new Hero("Terizla: ",400, 10,"Tank");
-        Hero[] heroMass = {Ling, Guss, Terizla};
+        Hero[] heroMass = {liNg, gUss, terIzla};
         return heroMass;
 
     }
